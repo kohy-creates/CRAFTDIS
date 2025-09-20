@@ -1,0 +1,11 @@
+{
+	"generator": {
+		"type": "noise",
+		"biome_source": {
+			"type": "fixed",
+			"biome": "craftdis:craftdis"
+		},
+		"settings": "craftdis:craftdis"
+	},
+	"type": "craftdis:craftdis"
+}
