@@ -1,0 +1,65 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": "#minecraft:pressure_plates"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"offsetX": 1,
+			"predicate": {
+				"block": {
+					"blocks": "minecraft:iron_door"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"offsetX": -1,
+			"predicate": {
+				"block": {
+					"blocks": "minecraft:iron_door"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"offsetZ": 1,
+			"predicate": {
+				"block": {
+					"blocks": "minecraft:iron_door"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"offsetZ": -1,
+			"predicate": {
+				"block": {
+					"blocks": "minecraft:iron_door"
+				}
+			}
+		},
+		{
+			"condition": "inverted",
+			"term": {
+				"condition": "minecraft:location_check",
+				"offsetY": 2,
+				"predicate": {
+					"block": {
+						"blocks": [
+							"minecraft:air",
+							"minecraft:cave_air",
+							"minecraft:void_air"
+						]
+					}
+				}
+			}
+		}
+	]
+}

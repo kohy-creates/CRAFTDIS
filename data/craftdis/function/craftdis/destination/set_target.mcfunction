@@ -1,0 +1,8 @@
+setblock 9 98 10 stone_button[powered=false,face=floor,facing=north]
+execute unless function craftdis:craftdis/destination/check_if_different/check run return 0
+
+execute unless entity @n[type=text_display,tag=craftdis.destination_display,distance=..3] run summon text_display 8.5 99.25 10.0625 {line_width: 300, teleport_duration: 0, default_background: 0b, transformation: {translation: [0.0f, 0.0f, 0.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.5f, 0.5f, 0.5f], left_rotation: [0.0f, 0.0f, 0.0f, 1.0f]}, OnGround: 0b, height: 0.0f, Invulnerable: 0b, alignment: "center", interpolation_duration: 0, shadow_strength: 1.0f, Rotation: [0.0f, 0.0f], fall_distance: 0.0d, glow_color_override: -1, shadow: 0b, Tags: ["craftdis.destination_display"], shadow_radius: 0.0f, Air: 300s, view_range: 1.0f, text_opacity: 255, see_through: 0b, UUID: [I; 325776207, -638893191, -1285046937, 1136953194], text: {extra: [{bold: 1b, color: "white", text: "Destination:"}, "\n", {bold: 1b, extra: [{color: "red", text: "X: "}, {color: "yellow", text: "<x>"}, {color: "white", text: " "}, {color: "green", text: "Y:"}, {color: "white", text: " "}, {color: "yellow", text: "<y>"}, {color: "white", text: " "}, {color: "blue", text: "Z:"}, {color: "white", text: " "}, {color: "yellow", text: "<z>"}], text: ""}, "\n", {bold: 1b, color: "gold", text: "Overworld"}], text: ""}, billboard: "fixed", width: 0.0f, Motion: [0.0d, 0.0d, 0.0d], Fire: 0s, Pos: [8.5d, 99.25d, 10.0625d], background: 1073741824, PortalCooldown: 0, brightness: {block: 15, sky: 15}}
+
+execute as @n[type=text_display,tag=craftdis.destination_display] run function craftdis:craftdis/destination/edit_distplay
+
+particle dust{color:[1.0, 0.0, 0.0],scale:1} 8.5 99.5 10.0625 0.5 0.2 0 0 40 normal
