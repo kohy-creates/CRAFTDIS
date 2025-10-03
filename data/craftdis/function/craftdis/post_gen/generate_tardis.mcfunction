@@ -7,3 +7,5 @@ setblock 8 97 6 minecraft:dispenser[facing=down]{Items:[{id:"redstone_block",cou
 
 # Destination
 setblock 8 97 10 minecraft:dispenser[facing=down]
+
+summon marker -5.5 97.001 8.5 {Tags:["craftdis", "craftdis.exit"]}

@@ -21,3 +21,5 @@ execute if score $c.fuel.percent craftdis.misc matches 90 run \
 	data modify entity @s text.extra[2] set value {color: "red", text:"⬛⬛⬛⬛⬛⬛⬛⬛⬛", extra:[{color:"black","text":"⬛"}]}
 execute if score $c.fuel.percent craftdis.misc matches 100 run \
 	data modify entity @s text.extra[2] set value {color: "red", text:"⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛"}
+
+data modify entity @s text.extra[6] set value [{color: "dark_red", score:{name:"$c.save_chance",objective:"craftdis.misc"}},{text:"%",color:"dark_red"}]
