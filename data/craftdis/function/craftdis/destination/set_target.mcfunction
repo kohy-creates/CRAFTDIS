@@ -1,8 +1,10 @@
 setblock 9 98 10 stone_button[powered=false,face=floor,facing=north]
 execute unless function craftdis:craftdis/destination/check_if_different/check run return 0
 
-execute if score $c.fuel craftdis.misc matches 0 run title @p actionbar {text:"Not enough fuel",color:"red"}
+execute if score $c.fuel craftdis.misc matches 0 run function craftdis:craftdis/destination/no_fuel
 execute if score $c.fuel craftdis.misc matches 0 run return 0
+
+advancement grant @a[distance=..16] only craftdis:craftdis/set_destination
 
 execute as @n[type=marker,tag=craftdis.fuel] at @s run function craftdis:craftdis/fuel/reduce_by_one
 
@@ -11,3 +13,7 @@ execute unless entity @n[type=text_display,tag=craftdis.destination_display,dist
 execute as @n[type=text_display,tag=craftdis.destination_display] run function craftdis:craftdis/destination/edit_distplay
 
 particle dust{color:[1.0, 0.0, 0.0],scale:1} 8.5 99.5 10.0625 0.5 0.2 0 0 40 normal
+particle electric_spark 8.5 99.5 10.0625 0.5 0.2 0 10 40 force @a[distance=..32]
+
+playsound block.beacon.activate block @a[distance=0..] 8.5 99.5 10.0625 1 1.3
+playsound block.trial_spawner.ominous_activate block @a[distance=0..] 8.5 99.5 10.0625 1 0.95

@@ -1,0 +1,26 @@
+{
+	"parent": "craftdis:craftdis/root",
+	"criteria": {
+		"iron": {
+			"conditions": {},
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Put 16 Lecterns into the Upgrades Dispenser and unlock the Destination Data Bank"
+		},
+		"icon": {
+			"count": 4,
+			"id": "minecraft:lectern"
+		},
+		"title": {
+			"translate": "MS Excel"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"sends_telemetry_event": false
+}

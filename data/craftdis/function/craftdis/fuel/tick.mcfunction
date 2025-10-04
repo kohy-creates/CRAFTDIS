@@ -31,3 +31,5 @@ execute if score $c.fuel.percent craftdis.misc matches 0..30 unless biome ~ ~ ~ 
 execute if score $c.fuel.percent craftdis.misc matches 31..60 unless biome ~ ~ ~ craftdis:redstone/low run fillbiome -8 92 24 24 97 -8 craftdis:redstone/low
 execute if score $c.fuel.percent craftdis.misc matches 61..90 unless biome ~ ~ ~ craftdis:redstone/medium run fillbiome -8 92 24 24 97 -8 craftdis:redstone/medium
 execute if score $c.fuel.percent craftdis.misc matches 91..100 unless biome ~ ~ ~ craftdis:redstone/high run fillbiome -8 92 24 24 97 -8 craftdis:redstone/high
+
+execute if score $c.fuel craftdis.misc matches 64 run advancement grant @p only craftdis:craftdis/max_fuel

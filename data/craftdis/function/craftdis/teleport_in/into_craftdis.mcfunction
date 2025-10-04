@@ -6,3 +6,5 @@ execute in craftdis:craftdis run tp @s 8 200 8
 
 tag @s add craftdis.teleport_into
 schedule function craftdis:craftdis/teleport_in/scheduled 1t append
+
+effect clear @s nausea

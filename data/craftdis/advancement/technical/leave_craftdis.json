@@ -1,0 +1,21 @@
+{
+	"parent": "craftdis:craftdis/root",
+	"criteria": {
+		"from": {
+			"conditions": {
+				"from": "craftdis:craftdis",
+				"to": "minecraft:overworld"
+			},
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"requirements": [
+		[
+			"from"
+		]
+	],
+	"sends_telemetry_event": false,
+	"rewards": {
+		"function": "craftdis:craftdis/events/leave_craftdis"
+	}
+}

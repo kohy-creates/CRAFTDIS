@@ -1,0 +1,26 @@
+{
+	"parent": "craftdis:craftdis/root",
+	"criteria": {
+		"iron": {
+			"conditions": {},
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Direct a CRAFTDIS to a specified location"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:lever"
+		},
+		"title": {
+			"translate": "Target Aquired!"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"sends_telemetry_event": false
+}

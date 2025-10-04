@@ -1,0 +1,69 @@
+{
+	"parent": "craftdis:craftdis/root",
+	"criteria": {
+		"dragon_egg": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dragon_egg"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"conduit": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:conduit"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"netherite_ingot": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_ingot"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Obtain all items that reduce fuel usage - Netherite Ingot, Conduit and Dragon Egg"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:redstone"
+		},
+		"title": {
+			"translate": "Economical"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"conduit"
+		],
+		[
+			"dragon_egg"
+		],
+		[
+			"netherite_ingot"
+		]
+	],
+	"sends_telemetry_event": false
+}

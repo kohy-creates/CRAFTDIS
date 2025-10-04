@@ -1,0 +1,26 @@
+{
+	"parent": "craftdis:craftdis/root",
+	"criteria": {
+		"iron": {
+			"conditions": {},
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Put 32 Barrels into the Upgrades Dispenser and unlock the Interdimensional Item Storage"
+		},
+		"icon": {
+			"count": 4,
+			"id": "minecraft:barrel"
+		},
+		"title": {
+			"translate": "Cloud Storage"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"sends_telemetry_event": false
+}

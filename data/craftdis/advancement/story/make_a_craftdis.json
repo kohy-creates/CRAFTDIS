@@ -1,0 +1,29 @@
+{
+	"parent": "minecraft:story/smelt_iron",
+	"criteria": {
+		"iron": {
+			"conditions": {
+				"from": "minecraft:overworld",
+				"to": "craftdis:craftdis"
+			},
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Construct the famous Iron Door Trap and enter it"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:iron_door"
+		},
+		"title": {
+			"translate": "Into The World of Backdoors"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"sends_telemetry_event": false
+}

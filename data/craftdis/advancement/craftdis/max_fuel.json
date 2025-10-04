@@ -1,0 +1,26 @@
+{
+	"parent": "craftdis:craftdis/root",
+	"criteria": {
+		"iron": {
+			"conditions": {},
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Fully fuel up the CRAFTDIS"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:redstone_block"
+		},
+		"title": {
+			"translate": "Power Overdrive!"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"sends_telemetry_event": false
+}

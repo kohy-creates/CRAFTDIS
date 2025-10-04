@@ -7,7 +7,13 @@
 		"fog_color": 12638463,
 		"sky_color": 8103167,
 		"water_color": 12523685,
-		"water_fog_color": 329011
+		"water_fog_color": 329011,
+		"particle": {
+			"options": {
+				"type": "minecraft:trial_spawner_detection"
+			},
+			"probability": 0.006
+		}
 	},
 	"features": [
 		[],

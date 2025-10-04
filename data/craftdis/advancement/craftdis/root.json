@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"iron": {
+			"conditions": {
+				"from": "minecraft:overworld",
+				"to": "craftdis:craftdis"
+			},
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Respecting the time-space continuum is for squares!"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:iron_door"
+		},
+		"title": {
+			"translate": "CRAFTDIS",
+			"color": "gold",
+			"bold": true
+		},
+		"background": "minecraft:block/iron_block",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"sends_telemetry_event": false
+}

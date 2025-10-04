@@ -1,0 +1,29 @@
+{
+	"parent": "craftdis:craftdis/set_destination",
+	"criteria": {
+		"iron": {
+			"conditions": {
+				"from": "craftdis:craftdis",
+				"to": "overworld"
+			},
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Leave the CRAFTDIS"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:copper_door"
+		},
+		"title": {
+			"translate": "Backdoor Transport"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"sends_telemetry_event": false
+}

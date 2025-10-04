@@ -4,3 +4,5 @@ execute store result score $c.enabled craftdis.misc positioned 6 98 8 if predica
 
 execute if score $c.enabled craftdis.misc matches 1 if block ~ ~ ~ waxed_weathered_chiseled_copper facing 8 ~ 8 run function craftdis:craftdis/upgrades/doors/remove
 execute if score $c.enabled craftdis.misc matches 0 unless block ~ ~ ~ waxed_weathered_chiseled_copper facing 8 ~ 8 run function craftdis:craftdis/upgrades/doors/place
+
+execute if score $c.enabled craftdis.misc matches 1 run advancement grant @a[distance=..16] only craftdis:craftdis/unlock_destination_bank
