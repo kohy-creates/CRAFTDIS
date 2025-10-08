@@ -6,3 +6,5 @@ execute if entity @s[tag=craftdis.craftdis] run function craftdis:craftdis/main_
 
 execute if entity @s[tag=craftdis.upgrade] run function craftdis:craftdis/upgrades/tick_specific/all
 execute if entity @s[tag=craftdis.upgrades] run function craftdis:craftdis/upgrades/tick
+
+execute if entity @s[tag=craftdis.redstone_particle] run function craftdis:craftdis/redstone_particles/tick

@@ -1,0 +1,26 @@
+{
+	"parent": "craftdis:craftdis/root",
+	"criteria": {
+		"iron": {
+			"conditions": {},
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Put 16 Clocks into the Upgrades Dispenser and unlock the Time Travel module"
+		},
+		"icon": {
+			"count": 4,
+			"id": "minecraft:clock"
+		},
+		"title": {
+			"translate": "The Reversed Wheel of Time"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"sends_telemetry_event": false
+}

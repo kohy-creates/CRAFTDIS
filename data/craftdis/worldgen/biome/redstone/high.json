@@ -8,6 +8,8 @@
 		"sky_color": 8103167,
 		"water_color": 16711680,
 		"water_fog_color": 329011,
+		"foliage_color": 11983713,
+		"grass_color": 11983713,
 		"particle": {
 			"options": {
 				"type": "minecraft:trial_spawner_detection"

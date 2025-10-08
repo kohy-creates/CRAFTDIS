@@ -3,8 +3,7 @@
 	"criteria": {
 		"from": {
 			"conditions": {
-				"from": "craftdis:craftdis",
-				"to": "minecraft:overworld"
+				"from": "craftdis:craftdis"
 			},
 			"trigger": "minecraft:changed_dimension"
 		}

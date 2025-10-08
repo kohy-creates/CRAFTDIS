@@ -8,12 +8,8 @@
 		"sky_color": 8103167,
 		"water_color": 4159204,
 		"water_fog_color": 329011,
-		"particle": {
-			"options": {
-				"type": "minecraft:enchant"
-			},
-			"probability": 0.006
-		}
+		"foliage_color": 11983713,
+		"grass_color": 11983713
 	},
 	"features": [
 		[],
