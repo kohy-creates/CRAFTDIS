@@ -14,7 +14,7 @@
 			"options": {
 				"type": "minecraft:trial_spawner_detection"
 			},
-			"probability": 0.006
+			"probability": 0.003
 		}
 	},
 	"features": [
