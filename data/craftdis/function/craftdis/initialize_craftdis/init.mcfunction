@@ -11,4 +11,8 @@ execute store result storage craftdis:craftdis target.z int 1 run scoreboard pla
 
 function #craftdis:craftdis_dimension_check
 
-function craftdis:craftdis/initialize_craftdis/give_book with storage craftdis:craftdis target
+execute \
+	unless dimension craftdis:copper_age \
+	unless dimension craftdis:nostalgia \
+	unless dimension craftdis:prehistory \
+	run function craftdis:craftdis/initialize_craftdis/give_book with storage craftdis:craftdis target

@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:blocks_attacks":{block_delay_seconds:0,disable_cooldown_scale:0,damage_reductions:[{base:0,factor:0.5}]}}}

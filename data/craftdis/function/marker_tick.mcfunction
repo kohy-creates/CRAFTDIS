@@ -8,3 +8,5 @@ execute if entity @s[tag=craftdis.upgrade] run function craftdis:craftdis/upgrad
 execute if entity @s[tag=craftdis.upgrades] run function craftdis:craftdis/upgrades/tick
 
 execute if entity @s[tag=craftdis.redstone_particle] run function craftdis:craftdis/redstone_particles/tick
+
+execute if entity @s[tag=craftdis.timeline] run function craftdis:craftdis/time_travel/tick

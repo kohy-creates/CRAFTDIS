@@ -5,4 +5,6 @@ data modify storage craftdis:craftdis text[2].extra[5].text set string storage c
 data modify storage craftdis:craftdis text[2].extra[9].text set string storage craftdis:craftdis target_location.z
 data modify storage craftdis:craftdis text[4].text set string storage craftdis:craftdis target_location.name
 
+
+
 data modify entity @s text.extra set from storage craftdis:craftdis text

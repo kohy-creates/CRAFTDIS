@@ -1,0 +1,30 @@
+{
+	"anvil_cost": 8,
+	"description": {
+		"translate": "Legacy Enligthment"
+	},
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:attack_speed",
+				"id": "craftdis:alpha_speed_enchant",
+				"amount": 999,
+				"operation": "add_value"
+			}
+		]
+	},
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 25,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/sword",
+	"weight": 1
+}
