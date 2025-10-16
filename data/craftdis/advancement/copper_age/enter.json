@@ -5,7 +5,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"dimension": "craftdis:prehistory"
+						"dimension": "craftdis:copper_age"
 					}
 				} 
 			},
@@ -14,16 +14,16 @@
 	},
 	"display": {
 		"description": {
-			"translate": "AKA the age of dinosaurs, except we ran out of budget",
+			"translate": "In this game drop, Copper was given more use by making everything copper. Except for mobs as it would require Mojang to rewrite code that is 195 years old and nobody knows what it was supposed to even do, but if touched, the game breaks in the most abominable ways known to mankind",
 			"color": "white",
 			"italic": true
 		},
 		"icon": {
 			"count": 1,
-			"id": "minecraft:podzol"
+			"id": "minecraft:copper_block"
 		},
 		"title": {
-			"translate": "Before The Meteor Came"
+			"translate": "1.21.142 - World of Copper"
 		},
 		"frame": "challenge",
 		"show_toast": false,

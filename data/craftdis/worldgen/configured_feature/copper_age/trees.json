@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"default": "craftdis:copper_age/tree",
+		"features": [
+			{
+				"chance": 0.1,
+				"feature": "craftdis:copper_age/tree_large"
+			},
+			{
+				"chance": 0.0125,
+				"feature": "craftdis:copper_age/fallen_tree"
+			}
+		]
+	}
+}

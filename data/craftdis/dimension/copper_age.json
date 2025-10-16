@@ -1,11 +1,11 @@
 {
-	"type": "minecraft:overworld",
+	"type": "craftdis:copper_age",
 	"generator": {
 		"type": "minecraft:noise",
 		"biome_source": {
 			"type": "minecraft:fixed",
-			"biome": "plains"
+			"biome": "craftdis:copper_dimension"
 		},
-		"settings": "minecraft:overworld"
+		"settings": "craftdis:copper_age"
 	}
 }
