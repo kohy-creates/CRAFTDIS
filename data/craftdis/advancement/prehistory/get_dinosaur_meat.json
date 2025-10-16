@@ -1,0 +1,36 @@
+{
+	"parent": "craftdis:prehistory/enter",
+	"criteria": {
+		"iron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:custom_data": {
+								"craftdis.dinosaur_meat": true
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Kill a 'dinosaur' for its meat"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:cooked_beef"
+		},
+		"title": {
+			"translate": "YUM YUM YUMMY!"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"sends_telemetry_event": false
+}

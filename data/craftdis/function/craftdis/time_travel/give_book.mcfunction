@@ -7,3 +7,5 @@ $loot replace block ~ ~ ~ container.4 loot {"pools":[{"rolls":1,"entries":[{"typ
 	],"mode":"replace_all"},{"function":"minecraft:set_custom_data","tag":{"target":\
 	{"x":$(x), "y":$(y), "z":$(z),"dimension":"$(dimension)", "name":"$(dimension_name)","is_time":true}\
 	}}]}]}],"functions":[]}
+
+advancement grant @a[distance=0..] only craftdis:craftdis/research_any_time

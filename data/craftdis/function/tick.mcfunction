@@ -6,3 +6,5 @@ execute as @e[type=marker,tag=craftdis] at @s run function craftdis:marker_tick
 execute in craftdis:craftdis if predicate {condition:"random_chance",chance:0.1} positioned 8 93 8 run function craftdis:craftdis/redstone_particles/check_spawn
 
 execute as @a if items entity @s weapon.mainhand #enchantable/sword[enchantments~[{"enchantments":"craftdis:alpha_speed",levels:1}],!blocks_attacks] run function craftdis:legacy_speed_enchant/initialize_item
+
+execute as @e[type=#craftdis:prehistory_increase_size,tag=!craftdis.prehistory.sized] at @s run function craftdis:prehistory/increase_size

@@ -1,0 +1,52 @@
+{
+	"parent": "craftdis:craftdis/unlock_time_travel",
+	"criteria": {
+		"research_any_time": {
+			"conditions": {},
+			"trigger": "minecraft:impossible"
+		},
+		"visit_time_dimension_1": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "craftdis:copper_age"
+			}
+		},
+		"visit_time_dimension_2": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "craftdis:nostalgia"
+			}
+		},
+		"visit_time_dimension_3": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "craftdis:prehistory"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Research any of the 3 available points in time. There would be more, but the CRAFTDIS technology isn't THAT advanced"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:dispenser"
+		},
+		"title": {
+			"translate": "Reinventing the Clock"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"sends_telemetry_event": false,
+	"requirements": [
+		[
+			"research_any_time",
+			"visit_time_dimension_1",
+			"visit_time_dimension_2",
+			"visit_time_dimension_3"
+		]
+	]
+}

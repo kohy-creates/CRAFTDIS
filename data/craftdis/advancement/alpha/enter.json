@@ -1,0 +1,34 @@
+{
+	"parent": "craftdis:craftdis/research_any_time",
+	"criteria": {
+		"enter_alpha": {
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "craftdis:nostalgia"
+					}
+				} 
+			},
+			"trigger": "minecraft:location"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "This place is nothing more than a fond memory now. Perhaps it's better to stop clinging to it and let go. You can't go back to it. It's nothing but a shell of what it used to be, what it used to feel like. Start living in the present, only going back to cherish the great times...",
+			"color": "white",
+			"italic": true
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:grass_block"
+		},
+		"title": {
+			"translate": "Memory of Phantasm"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"sends_telemetry_event": false
+}

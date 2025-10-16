@@ -1,0 +1,39 @@
+{
+	"parent": "craftdis:alpha/enter",
+	"criteria": {
+		"iron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:enchanted_book"
+						],
+						"components": {
+							"minecraft:stored_enchantments": {
+								"craftdis:alpha_speed": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "Find a book carrying an enchantment infused with the memories of the Golden Age"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:enchanted_book"
+		},
+		"title": {
+			"translate": "Better Than Adventure"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"sends_telemetry_event": false
+}

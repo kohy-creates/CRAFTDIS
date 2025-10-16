@@ -1,0 +1,34 @@
+{
+	"parent": "craftdis:craftdis/research_any_time",
+	"criteria": {
+		"enter_alpha": {
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "craftdis:prehistory"
+					}
+				} 
+			},
+			"trigger": "minecraft:location"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "AKA the age of dinosaurs, except we ran out of budget",
+			"color": "white",
+			"italic": true
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:podzol"
+		},
+		"title": {
+			"translate": "Before The Meteor Came Crashing"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"sends_telemetry_event": false
+}
