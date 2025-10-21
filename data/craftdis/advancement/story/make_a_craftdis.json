@@ -3,7 +3,6 @@
 	"criteria": {
 		"iron": {
 			"conditions": {
-				"from": "minecraft:overworld",
 				"to": "craftdis:craftdis"
 			},
 			"trigger": "minecraft:changed_dimension"

@@ -19,3 +19,6 @@ execute if data storage craftdis:craftdis {target_location:{is_time:1}} run func
 
 tag @n[type=marker,tag=craftdis.craftdis] add craftdis.freshly_teleported
 tag @s add craftdis.freshly_teleported
+
+tag @s add craftdis.out_scheduled
+schedule function craftdis:craftdis/teleport_out/out_scheduled 1s append
